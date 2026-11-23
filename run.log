@@ -1,0 +1,53 @@
+[23:24:58] [INFO] ======================================================================
+[23:24:58] [INFO] Single Grain Lead Triage Pipeline Starting
+[23:24:58] [INFO] Input file: F:\jobsautomate\beat_claude_lead_triage\fixtures\inbound_leads.csv
+[23:24:58] [INFO] Output JSON: F:\jobsautomate\beat_claude_lead_triage\decisions.json
+[23:24:58] [INFO] Fixture SHA-256 Checksum: cc1927ca771c37b186a2abdb7b9757594da79ec6dda074e5a514dd2761cc8599
+[23:24:58] [INFO] ======================================================================
+[23:24:58] [INFO] Loaded 20 leads from fixture.
+[23:24:58] [INFO] Evaluating lead L-001 (Dana Reyes / BrightCart)
+[23:24:58] [INFO] Evaluating lead L-002 (Marcus Lee / )
+[23:24:58] [INFO] [L-002] Student mentorship inquiry with $0 budget.
+[23:24:58] [INFO] Evaluating lead L-003 (D. Reyes / Bright Cart Inc)
+[23:24:58] [INFO] [L-003] Duplicate/follow-up from prior lead L-001
+[23:24:58] [INFO] Evaluating lead L-004 (Priya Natarajan / Verdant Labs)
+[23:24:58] [WARNING] [L-004] Missing contact email with high potential value.
+[23:24:58] [INFO] Evaluating lead L-005 (Tom Okafor / Okafor Logistics)
+[23:24:58] [INFO] [L-005] Unspecified budget requesting education.
+[23:24:58] [INFO] Evaluating lead L-006 (Alex Chen / Pinnacle Growth)
+[23:24:58] [WARNING] [L-006] ADVERSARIAL PROMPT INJECTION attempt detected.
+[23:24:58] [INFO] Evaluating lead L-007 (Janet Morrow / Continental Foods Group)
+[23:24:58] [WARNING] [L-007] Enterprise lead with suspected budget unit typo.
+[23:24:58] [INFO] Evaluating lead L-008 (Rick Alvarez / )
+[23:24:58] [WARNING] [L-008] Stealth Fortune 500 VP claim from personal email.
+[23:24:58] [INFO] Evaluating lead L-009 (Lucía Fernández / Tienda Verde)
+[23:24:58] [INFO] Evaluating lead L-010 (test / asdf)
+[23:24:58] [INFO] [L-010] Form bot/spam submission detected.
+[23:24:58] [INFO] Evaluating lead L-011 (Sam Whitfield / Apex Digital Partners)
+[23:24:58] [INFO] [L-011] Competitor agency shopping retainers/deliverables.
+[23:24:58] [INFO] Evaluating lead L-012 (Nora Haddad / FinLit)
+[23:24:58] [INFO] Evaluating lead L-013 (Jordan Blake / Blake Consulting)
+[23:24:58] [WARNING] [L-013] Disposable email (mailinator.com) requesting proprietary IP.
+[23:24:58] [INFO] Evaluating lead L-014 (Emily Tran / Seedling)
+[23:24:58] [INFO] [L-014] Early-stage startup with future scale timeline.
+[23:24:58] [INFO] Evaluating lead L-015 (Marcus Lee / )
+[23:24:58] [INFO] [L-015] Duplicate/follow-up from prior lead L-002
+[23:24:58] [INFO] [L-015] Sub-threshold budget ($2500).
+[23:24:58] [INFO] Evaluating lead L-016 (Chris Doyle / Doyle HVAC)
+[23:24:58] [INFO] [L-016] Local trade contractor outside core enterprise ICP.
+[23:24:58] [INFO] Evaluating lead L-017 (Amara Osei / NorthPeak Health)
+[23:24:58] [INFO] Evaluating lead L-018 (Ben Cutler / Quorum Data)
+[23:24:58] [WARNING] [L-018] Blank message body with high budget.
+[23:24:58] [INFO] Evaluating lead L-019 (Hannah Vogel / )
+[23:24:58] [WARNING] [L-019] GDPR Article 17 deletion request detected.
+[23:24:58] [INFO] Evaluating lead L-020 (Victor Ionescu / FastPay Billing)
+[23:24:58] [WARNING] [L-020] MALWARE/PHISHING detected: http://fastpay-billing.net/inv/8823.exe
+[23:24:58] [INFO] Wrote 20 decisions to F:\jobsautomate\beat_claude_lead_triage\decisions.json
+[23:24:58] [INFO] Wrote companion CSV to F:\jobsautomate\beat_claude_lead_triage\decisions.csv
+[23:24:58] [INFO] ======================================================================
+[23:24:58] [INFO] Triage Decision Summary Breakdown:
+[23:24:58] [INFO]   ESCALATE  :  8 leads
+[23:24:58] [INFO]   NURTURE   :  3 leads
+[23:24:58] [INFO]   QUALIFY   :  5 leads
+[23:24:58] [INFO]   REJECT    :  4 leads
+[23:24:58] [INFO] ======================================================================

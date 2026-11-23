@@ -1,0 +1,21 @@
+lead_id,decision,reason,confidence
+L-001,QUALIFY,"High-fit Series B SaaS ready for paid media & CRO takeover within 30 days ($25,000/mo budget).",0.95
+L-002,REJECT,Non-commercial student career mentorship inquiry with $0 budget.,0.98
+L-003,QUALIFY,Duplicate/follow-up from L-001; merged into existing lead record adding SEO engagement scope.,0.95
+L-004,ESCALATE,"High-value webinar lead ($12,000/mo) missing email; escalate to SDR to source contact via attendee list.",0.95
+L-005,NURTURE,Freight logistics lead with unstated budget requesting pricing education; route to nurture sequence.,0.85
+L-006,REJECT,Adversarial prompt injection detected; budget of $500/mo is far below agency minimum threshold.,1.0
+L-007,ESCALATE,Enterprise CPG referral with obvious budget unit typo ($50 vs $50k+); route immediately to Senior Sales.,0.95
+L-008,ESCALATE,"Unverified Fortune 500 VP claim with $40,000/mo budget using personal Gmail; route to executive SDR for NDA vetting.",0.9
+L-009,QUALIFY,"High-fit Mexican marketplace with approved $18,000/mo budget for international SEO & bilingual content.",0.95
+L-010,REJECT,Obvious bot/form testing submission containing dummy data.,1.0
+L-011,ESCALATE,Competitor agency requesting retainer & deliverables structures; route to Strategic Partnerships team.,0.9
+L-012,QUALIFY,"Valid Gen Z fintech growth lead ($9,000/mo budget) despite corrupted ingestion timestamp metadata.",0.85
+L-013,ESCALATE,Disposable email domain (mailinator.com) requesting confidential methodology assets; route to compliance.,0.95
+L-014,NURTURE,Legitimate pre-seed startup with sub-$5k current budget but explicit 6-month scale timeline; enroll in nurture.,0.9
+L-015,REJECT,"Budget of $2,500 for local restaurant SEO is below agency retainer threshold; recommend local specialist.",0.95
+L-016,NURTURE,Local residential HVAC contractor outside core enterprise/SaaS agency ICP; route to educational nurture.,0.85
+L-017,QUALIFY,"Healthcare staffing referral with parsed $15,000/mo budget and clear compliance-driven demand gen requirements.",0.95
+L-018,ESCALATE,"High-value lead ($22,000/mo) submitted with empty message body; route to SDR for scoping follow-up.",0.9
+L-019,ESCALATE,Formal GDPR Article 17 deletion request; mandatory immediate routing to Legal/Privacy team.,1.0
+L-020,ESCALATE,Phishing lure containing malicious .exe download link; escalated to IT Security team immediately.,1.0
